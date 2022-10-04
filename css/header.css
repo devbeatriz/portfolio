@@ -1,0 +1,27 @@
+.header-bg {
+  background: #0F0F0F;
+}
+
+.header {
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+
+  font-size: 1.125rem;
+  gap: 20px;
+}
+
+@media (max-width: 500px) {
+  .header img {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+}

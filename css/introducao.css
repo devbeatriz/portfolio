@@ -1,0 +1,57 @@
+.introducao-bg {
+  background: #0F0F0F;
+}
+
+.introducao {
+  color: #FFF;
+  height: 560px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.introducao p {
+  font-size: 1.625rem;
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+
+.botao {
+  margin-top: 60px;
+  padding: 15px 60px;
+  display: inline-block;
+  background: linear-gradient(100.77deg, #6C63FF 5.1%, rgba(32, 19, 251, 0) 177.71%);
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.botao2 {
+  padding: 15px 60px;
+  display: inline-block;
+  border-radius: 4px;
+  outline-offset: -2px;
+  outline: 2px solid #8E87F8;
+}
+
+@media (max-width:800px) {
+  .introducao {
+    height: 460px;
+    padding: 60px 40px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
+  .introducao p {
+    font-size: 1.125rem;
+  }
+  .botao,
+  .botao2 {
+    padding: 15px 40px;
+    margin-top: 30px;
+  }
+}
