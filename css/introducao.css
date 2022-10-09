@@ -55,3 +55,17 @@
     margin-top: 30px;
   }
 }
+
+@media (max-width: 400px) {
+  .introducao h1 {
+    font-size: 1.5rem;
+  }
+  .introducao p {
+    font-size: .8rem;
+  }
+  .botao,
+  .botao2 {
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+}
