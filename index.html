@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="shortcut icon" href="img/favicon.jpg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -32,11 +33,12 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <p>Olá 👋🏽 eu sou</p>
-        <h1>Beatriz Rodrigues</h1>
-        <p>Desenvolvedora Front-end e UI Designer. </p>
-        <a class="botao" href="https://www.linkedin.com/in/devbeatriz/" target="_blank">LinkedIn</a>
-        <a class="botao2" href="https://github.com/devbeatriz">GitHub</a>
+        <p class="fadeInDown" data-anime="400">Olá 👋🏽 eu sou</p>
+        <h1 class="fadeInDown" data-anime="200">Beatriz Rodrigues</h1>
+        <p class="fadeInDown" data-anime="400 ">Desenvolvedora Front-end e UI Designer. </p>
+        <a class="botao fadeInDown" data-anime="600" href="https://www.linkedin.com/in/devbeatriz/"
+          target="_blank">LinkedIn</a>
+        <a class="botao2 fadeInDown" data-anime="600" href="https://github.com/devbeatriz">GitHub</a>
       </div>
     </div>
   </main>
@@ -47,7 +49,8 @@
       <div class="sobre-texto">
         <h3>Sobre mim</h3>
         <p>Olá, me chamo Beatriz Rodrigues desenvolvo websites utilizando <strong>HTML</strong>, <strong>CSS</strong> e
-          <strong>JavaScript</strong>.</p>
+          <strong>JavaScript</strong>.
+        </p>
         <p>Atualmente cursando <strong>Análise e Desenvolvimento de Sistemas</strong> além de sempre buscar
           conhecimentos externos a faculdade, através de cursos e eventos.</p>
         <p>Estou em busca da minha <strong>primeira oportunide</strong> para dar início a minha carreira.</p>
@@ -57,55 +60,58 @@
 
   <section id="projetos" class="projeto-bg">
     <h3 class="projeto-titulo">Projetos</h3>
-      <div class="projeto container">
-        <div class="projeto-item" >
-           <h1 class="projeto-nome">Bikcraft</h1>
-           <p class="projeto-descricao">Projeto final do curso de <strong>HTML e CSS para Iniciantes</strong> da Origamid.</p>
-            <ul class="projeto-tecnologias">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>UI Design</li>
-            </ul>
-            <a class="link" href="https://bikcraft-db.vercel.app/" target="_blank">Ver projeto</a>
-        </div>
-    
-        <div class="projeto-item">
-          <h1 class="projeto-nome">LoL</h1>
-          <p class="projeto-descricao">Projeto onde tive meu primeiro contato prático com <strong>JavaScript</strong>.</p>
-           <ul class="projeto-tecnologias">
-             <li>HTML</li>
-             <li>CSS</li>
-             <li>JavaScript</li>
-           </ul>
-           <a class="link" href="https://lol-db.vercel.app/" target="_blank">Ver projeto</a>
-        </div>
-    
-       <div class="projeto-item">
+    <div class="projeto container">
+      <div class="projeto-item">
+        <h1 class="projeto-nome">Bikcraft</h1>
+        <p class="projeto-descricao">Projeto final do curso de <strong>HTML e CSS para Iniciantes</strong> da Origamid.
+        </p>
+        <ul class="projeto-tecnologias">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>UI Design</li>
+        </ul>
+        <a class="link" href="https://bikcraft-db.vercel.app/" target="_blank">Ver projeto</a>
+      </div>
+
+      <div class="projeto-item">
+        <h1 class="projeto-nome">LoL</h1>
+        <p class="projeto-descricao">Projeto onde tive meu primeiro contato prático com <strong>JavaScript</strong>.</p>
+        <ul class="projeto-tecnologias">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <a class="link" href="https://lol-db.vercel.app/" target="_blank">Ver projeto</a>
+      </div>
+
+      <div class="projeto-item">
         <h1 class="projeto-nome">Em breve</h1>
         <p class="projeto-descricao">Pegue um café e espere um pouco, estou desenvolvendo o projeto.</p>
-        </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<footer id="contato" class="footer-bg">
-  <div class="footer container">
-    <p class="footer-descricao">Estou disponível para novos projetos. <br>
-      Entre em contato e marcamos uma conversa 👋</p>
+  <footer id="contato" class="footer-bg">
+    <div class="footer container">
+      <p class="footer-descricao">Estou disponível para novos projetos. <br>
+        Entre em contato e marcamos uma conversa 👋</p>
       <ul class="footer-redes">
         <li>
           <a target="_blank" href="mailto:beatrizrodrrigues@gmail.com"><img src="./img/mail.svg" alt="Email"></a>
         </li>
         <li>
-          <a target="_blank" href="https://www.linkedin.com/in/devbeatriz/"><img src="./img/linkedin.svg" alt="Linkedin"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/devbeatriz/"><img src="./img/linkedin.svg"
+              alt="Linkedin"></a>
         </li>
         <li>
           <a target="_blank" href="https://github.com/devbeatriz"><img src="./img/github.svg" alt="GitHub"></a>
         </li>
       </ul>
-  </div>
-</footer>
-
+    </div>
+  </footer>
+  <script src="js/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

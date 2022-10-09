@@ -62,6 +62,11 @@
   color: #8E87F8;
 }
 
+.link:hover {
+  color: #483DF5;
+  transition: .3s;
+}
+
 @media (max-width:900px) {
   .projeto-bg {
     height: auto;

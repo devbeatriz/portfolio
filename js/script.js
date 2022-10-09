@@ -1,0 +1,2 @@
+// Animação
+new SimpleAnime();

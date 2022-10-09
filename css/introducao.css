@@ -30,12 +30,22 @@
   margin-right: 10px;
 }
 
+.botao:hover {
+  background: linear-gradient(100.77deg, #483DF5 5.1%, rgba(29, 18, 251214, 0) 177.71%);
+  transition: .3s;
+}
+
 .botao2 {
   padding: 15px 60px;
   display: inline-block;
   border-radius: 4px;
   outline-offset: -2px;
   outline: 2px solid #8E87F8;
+}
+
+.botao2:hover {
+  outline: 2px solid #483DF5;
+  transition: .3s;
 }
 
 @media (max-width:800px) {
