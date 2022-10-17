@@ -1,5 +1,9 @@
 .header-bg {
   background: #0F0F0F;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 .header {
