@@ -19,7 +19,7 @@
     text-transform: uppercase;
     word-break: break-all;
     max-width: 6ch;
-    color: rgba(25, 25, 31, 1);
+    color: rgba(94, 86, 235, 0.20);
 }
 
 .sobre h3 {
@@ -32,6 +32,7 @@
   color: #CCCCCC;
   margin-bottom: 30px;
   font-weight: normal;
+  line-height: 1.4;
 }
 
 .sobre strong {
