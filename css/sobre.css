@@ -37,6 +37,7 @@
 
 .sobre strong {
   color: #FFF;
+  font-weight: 500;
 }
 
 @media (max-width:900px) {
